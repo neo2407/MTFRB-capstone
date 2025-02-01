@@ -1,0 +1,280 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #3468C0 url('../../assets/img/bg-lucban.png') no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+        margin: 0; /* Ensure no margin around the body */
+    }
+
+    .new-pass {
+        width: 100%;  /* Full width of the viewport */
+        height: 100%; /* Full height of the viewport */
+        padding: -32rem; /* Padding for space around the form */
+        box-sizing: border-box;  /* Include padding in width and height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    form {
+        background-color: #ffffff;
+        color: #3468C0;
+        border-radius: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        position: relative;
+        z-index: 1;
+        width: 90%; /* Adjust form width to 90% of the screen */
+        max-width: 500px; /* Limit max width for form */
+        height: auto; /* Allow height to adjust based on content */
+        overflow: auto; /* Prevent overflow issues */
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    
+
+    .input-box select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #2780c2;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #2780c2; /* Primary button color */
+        border: none;
+        border-radius: 5px; /* Smooth rounded corners */
+        color: white; /* White text color */
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        margin: 20px 0; /* Top and bottom spacing */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for contrast */
+        transition: all 0.3s ease; /* Smooth hover transition */
+        backdrop-filter: blur(3px); /* Slight blur effect for better readability */
+        opacity: 0.95; /* Slightly transparent for a sleek look */
+    }
+    
+    .btn:hover {
+        background-color: #3468C0; /* Slightly darker blue on hover */
+        opacity: 1; /* Fully opaque on hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Elevated shadow on hover */
+        color:#FFFFFF;
+    }
+    
+    .btn:active {
+        transform: translateY(2px); /* Pressed effect */
+    }
+
+    .input-box.active-grey .input-1 {
+        border: 1px solid #dadce0;
+    }
+    
+    .input-box.active-grey .input-label {
+        color: #80868b;
+        top: -8px;
+        background: #fff;
+        font-size: 11px;
+        transition: 250ms;
+    }
+    
+   .input-box {
+    position: relative;
+        margin: 10px 0;
+        padding-bottom: 40px; /* Add space for error message */
+    }
+    
+    .toggle-password {
+        position: absolute;
+        right: 15px;
+        top: 25px; /* Adjust to align with input field */
+        transform: translateY(-50%);
+        cursor: pointer;
+        color: #80868b;
+        z-index: 2;
+    }
+    
+    .form-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+    }
+
+    /* Adjust input padding to prevent text overlap with icon */
+    .input-1 {
+        padding-right: 45px !important;
+    }
+
+    .input-box .input-label {
+        position: absolute;
+        color: #80868b;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: calc(100% - (2 * 8px));
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        left: 8px;
+        top: 13px;
+        padding: 0 8px;
+        transition: 250ms;
+        user-select: none;
+        pointer-events: none;
+    }
+    
+    .input-box .input-1 {
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        border-radius: 4px;
+        color: #202124;
+        border: 1px solid #dadce0;
+        padding: 13px 15px;
+        transition: 250ms;
+    }
+    
+    .input-box .input-1:focus {
+        outline: none;
+        border: 2px solid #1a73e8;
+        transition: 250ms;
+    }
+    
+    .input-box.error .input-label {
+        color: #f44336;
+        top: -8px;
+        background: #fff;
+        font-size: 11px;
+        transition: 250ms;
+    }
+    
+    .input-box.error .input-1 {
+        border: 2px solid #f44336;
+    }
+    
+    .input-box.focus .input-label,
+    .input-box.active .input-label {
+        color: #1a73e8;
+        top: -8px;
+        background: #fff;
+        font-size: 11px;
+        transition: 250ms;
+    }
+    
+    .input-box.active .input-1 {
+        border: 2px solid #1a73e8;
+    }
+
+    .input-box {
+        position: relative;
+        margin: 10px 0;
+    }
+
+    .input-label {
+        position: absolute;
+        color: #80868b;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: calc(100% - (2 * 8px));
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        left: 8px;
+        top: 13px;
+        padding: 0 8px;
+        transition: 250ms;
+        user-select: none;
+        pointer-events: none;
+    }
+    
+    .input-1 {
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        border-radius: 4px;
+        color: #202124;
+        border: 1px solid #dadce0;
+        padding: 13px 15px;
+        transition: 250ms;
+    }
+    
+    input {
+        background: #fff;
+    }
+    
+    label {
+        cursor: default;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+    .new-pass img.Logo {
+        position: absolute;
+        z-index: 0;
+        opacity: 0.1;
+        width: 100%;
+        height: 100%; /* Ensure the logo fills the entire height */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+    }
+    
+   @media screen and (max-width: 768px) {
+    form {
+        width: 90%; /* Occupy most of the screen width */
+        max-width: 600px; /* Reduce max width for smaller screens */
+        margin: 0 auto; /* Center the form */
+    }
+
+    .new-pass {
+        padding: 1rem; /* Add padding for better spacing */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Adjust heading size */
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .input-box .input-1 {
+        padding: 10px;
+    }
+    
+    .input-box {
+        padding-bottom: 35px;
+    }
+    
+    .form-text {
+        font-size: 11px;
+    }
+}

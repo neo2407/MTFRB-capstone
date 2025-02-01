@@ -1,0 +1,345 @@
+input[type="file"] {
+    padding: 2px;
+    background-color: #fff;
+    border: 2px solid #b4b2b2;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #495057;
+    height: 39px;
+    width: 230px;
+}
+
+input[type="file"]::file-selector-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dbd9d9;
+    color: #313131;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #c3c3c3;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #262626 !important;
+    margin-bottom: 8px;
+    display: block;
+}
+
+
+.save-btn {
+    background-color: #2680C2;
+    border: 1px solid #2680C2;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.save-btn:hover,
+.save-btn:focus,
+.save-btn:active {
+    background-color: #fff;
+    border: 1px solid #2680C2;
+    color: #2680C2;
+}
+
+.cancel-btn {
+    background-color: #fff !important;
+    border: 1px solid #FF9843 !important;
+    border-radius: 5px;
+    color: #FF9843 !important;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cancel-btn:hover,
+.cancel-btn:active {
+    background-color: #FF9843 !important;
+    border: 1px solid #FF9843 !important;
+    color: #fff !important;
+}
+
+.cancel-btn:focus {
+    color: #fff !important;
+}
+
+/* Applicant Profile */
+
+.View-Attachment {
+    font-weight: 500;
+    font-size: 14px;
+    color: #262626 !important;
+    width: 105px;
+}
+
+.qr-code-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-code-placeholder {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.generate-btn {
+    background-color: #25B033;
+    border: 1px solid #25B033;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+}
+
+.generate-btn:hover,
+.generate-btn:focus,
+.generate-btn:active {
+    background-color: #fff;
+    border: 1px solid #25B033;
+    color: #25B033;
+}
+
+.valid-btn {
+    background-color: #25B033;
+    border: 1px solid #25B033;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.valid-btn:hover,
+.valid-btn:focus,
+.valid-btn:active {
+    background-color: #fff;
+    border: 1px solid #25B033;
+    color: #25B033;
+}
+
+.invalid-btn {
+    background-color: #fff;
+    border: 1px solid #B02525;
+    border-radius: 5px;
+    color: #B02525;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.invalid-btn:hover,
+.invalid-btn:active {
+    background-color: #B02525;
+    border: 1px solid #B02525;
+    color: #fff;
+}
+
+.invalid-btn:focus {
+    color: #fff;
+}
+
+.back-btn {
+    background-color: #2680C2;
+    border: 1px solid #2680C2;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.back-btn:hover,
+.back-btn:focus,
+.back-btn:active {
+    background-color: #fff;
+    border: 1px solid #2680C2;
+    color: #2680C2;
+}
+
+/* Complaint */
+
+.Franchise-Number {
+    font-weight: 500;
+    font-size: 17px;
+    color: #262626 !important;
+    width: 400px;
+    display: block;
+}
+
+
+
+.Expiry-Date {
+    font-weight: 500;
+    font-size: 17px;
+    color: #262626 !important;
+    width: 400px;
+    display: block;
+}
+
+.Download {
+    font-weight: 500;
+    font-size: 15px;
+    color: #262626 !important;
+    width: 105px;
+    display: block;
+}
+
+.View-Attachment {
+    font-weight: 500;
+    font-size: 15px;
+    color: #262626 !important;
+    width: 105px;
+}
+
+.QR-code {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.btn.btn-primary {
+    background-color: #2680C2;
+    color: #fff;
+    border: 1px solid #2680C2;
+    box-shadow: inset 0 0 0 0 #fff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+    background-color: #fff;
+    border-color: #2680C2;
+    color: #2680C2;
+    box-shadow: inset 0 50px 0 0 #fff;
+}
+
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+/* Reports */
+
+.btn {
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    margin: 0;
+    z-index: 1;
+    text-transform: initial;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 8px 15px;
+}
+
+.btn:hover {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* Add Franchise */
+
+.period-type .custom-select {
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none !important;
+    background-color: #fff;
+    color: #000;
+
+}
+
+.period-type .custom-select:hover {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDEwIDEwIj4KPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik01IDdsNC00Ljc0NUEwLjI1LjI1IDAgMCAxIDkgMmgtOC4wNTVhMC4yNS4yNSAwIDAgMSAuMDkzLjI1MkwgNSA3eiIgLz4KPC9zdmc+');
+    /* SVG arrow in white */
+    background-color: #2680C2;
+    color: #ffffff;
+}
+
+.period-type .custom-select option {
+    background-color: #fff !important;
+    margin: 10px;
+    color: #000;
+}
+
+.period-type .custom-select option:hover,
+.period-type .custom-select option:focus {
+    background-color: #2680C2 !important;
+    color: #ffffff !important;
+    padding: 12px;
+}
+
+.report-type.custom-select {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none !important;
+    background-color: #fff;
+    color: #000;
+
+}
+
+.report-type .custom-select:hover {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDEwIDEwIj4KPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik01IDdsNC00Ljc0NUEwLjI1LjI1IDAgMCAxIDkgMmgtOC4wNTVhMC4yNS4yNSAwIDAgMSAuMDkzLjI1MkwgNSA3eiIgLz4KPC9zdmc+');
+    /* SVG arrow in white */
+    background-color: #2680C2;
+    color: #ffffff;
+}
+
+.report-type .custom-select option {
+    background-color: #fff !important;
+    margin: 10px;
+    color: #000;
+}
+
+.report-type .custom-select option:hover,
+.report-type .custom-select option:focus {
+    background-color: #2680C2 !important;
+    color: #ffffff !important;
+    padding: 12px;
+}
+
+
+

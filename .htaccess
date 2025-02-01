@@ -1,0 +1,11 @@
+# Enable Rewrite Engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Rewrite rules go here (if any)
+</IfModule>
+
+# Ensure proper handling of directory indexes
+DirectoryIndex index.php index.html
+
+# Set timezone for PHP
+php_value date.timezone "Asia/Manila"

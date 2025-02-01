@@ -1,0 +1,7 @@
+{
+    "require": {
+        "intervention/image": "^2.7",
+        "twilio/sdk": "*",
+        "infobip/infobip-api-php-client": "*"
+    }
+}

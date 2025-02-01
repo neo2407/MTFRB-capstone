@@ -1,0 +1,248 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #3468C0 url('../../assets/img/bg-lucban.png') no-repeat center center fixed;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .login {
+        width: 100%;
+        max-width: 550px;
+        padding: 1rem;
+        position: relative; /* Added for logo positioning */
+    }
+    form {
+            background-color: #ffffff;
+            color: #3468C0;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+           
+            
+        }
+    
+        h2 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+    
+        .input-box {
+            margin: 1rem 0;
+            position: relative;
+        }
+    
+        .input-box select {
+            width: 100%;
+            padding: 10px;
+        border: 1px solid #2780c2;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+
+      .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #2780c2; /* Primary button color */
+        border: none;
+        border-radius: 5px; /* Smooth rounded corners */
+        color: white; /* White text color */
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        margin: 20px 0; /* Top and bottom spacing */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for contrast */
+        transition: all 0.3s ease; /* Smooth hover transition */
+        backdrop-filter: blur(3px); /* Slight blur effect for better readability */
+        opacity: 0.95; /* Slightly transparent for a sleek look */
+    }
+    
+    .btn:hover {
+        background-color: #3468C0; /* Slightly darker blue on hover */
+        opacity: 1; /* Fully opaque on hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Elevated shadow on hover */
+        color:#FFFFFF;
+    }
+    
+    .btn:active {
+        transform: translateY(2px); /* Pressed effect */
+    }
+    
+        .input-box.active-grey .input-1 {
+        border: 1px solid #dadce0;
+    }
+    
+    .input-box.active-grey .input-label {
+        color: #80868b;
+        top: -8px;
+        background: #fff;
+        font-size: 11px;
+        transition: 250ms;
+    }
+    
+    .input-box {
+        position: relative;
+        margin: 10px 0;
+    }
+    
+    .input-box .input-label {
+        position: absolute;
+        color: #80868b;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: calc(100% - (2 * 8px));
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        left: 8px;
+        top: 13px;
+        padding: 0 8px;
+        transition: 250ms;
+        user-select: none;
+        pointer-events: none;
+    }
+    
+    .input-box .input-1 {
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        border-radius: 4px;
+        color: #202124;
+        border: 1px solid #dadce0;
+        padding: 13px 15px;
+        transition: 250ms;
+    }
+    
+    .input-box .input-1:focus {
+        outline: none;
+        border: 2px solid #1a73e8;
+        transition: 250ms;
+    }
+    
+    .input-box.error .input-label {
+        color: #f44336;
+        top: -8px;
+        background: #fff;
+        font-size: 11px;
+        transition: 250ms;
+    }
+    
+    .input-box.error .input-1 {
+        border: 2px solid #f44336;
+    }
+    
+    .input-box.focus .input-label,
+    .input-box.active .input-label {
+        color: #1a73e8;
+        top: -8px;
+        background: #fff;
+        font-size: 11px;
+        transition: 250ms;
+    }
+    
+    .input-box.active .input-1 {
+        border: 2px solid #1a73e8;
+    }
+    
+    
+    .input-box {
+        position: relative;
+        margin: 10px 0;
+    }
+    
+    .input-label {
+        position: absolute;
+        color: #80868b;
+        font-size: 16px;
+        font-weight: 400;
+        max-width: calc(100% - (2 * 8px));
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        left: 8px;
+        top: 13px;
+        padding: 0 8px;
+        transition: 250ms;
+        user-select: none;
+        pointer-events: none;
+    }
+    
+    .input-1 {
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        border-radius: 4px;
+        color: #202124;
+        border: 1px solid #dadce0;
+        padding: 13px 15px;
+        transition: 250ms;
+    }
+    
+    input {
+        background: #fff;
+    }
+    
+    label {
+        cursor: default;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
+
+
+    .login img.Logo {
+        position: absolute;
+        z-index: 0; /* Behind the form */
+        opacity: 0.1; /* Lower opacity for subtle background */
+        width: 100%; /* Dynamic size relative to the form */
+        max-width: 700px; /* Prevent excessive scaling on large screens */
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none; /* Ensure the image doesn’t interfere with user input */
+    }
+
+    @media (max-width: 480px) {
+        .login {
+            max-width:100%;
+            padding: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        .btn {
+            font-size: 14px;
+            padding: 8px;
+        }
+
+        .input-box select {
+            font-size: 13px;
+        }
+
+        .login img.Logo {
+            width: 100%; /* Adjust logo size for smaller screens */
+            max-width: 700px; /* Limit the maximum size on very small screens */
+        }
+    }

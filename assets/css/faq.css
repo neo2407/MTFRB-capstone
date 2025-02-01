@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100&family=K2D:wght@100&family=Teko:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+
+.content  {
+    background: #3468C0 url('../img/bg-lucban.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* Prevent the background from resizing */
+   
+}
+html {
+    font-size: 16px; /* Base font size for the root */
+    font-family: Poppins, sans-serif;
+}
+/* Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px; /* Adjust base font size for smaller screens */
+    }
+
+    .slide-title {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+        top: 4rem; /* Adjust vertical position for smaller screens */
+    }
+
+    .slide-description {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        top: 4rem; /* Adjust vertical position for smaller screens */
+    }
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 480px) {
+    html {
+        font-size: 12px; 
+    }
+
+ 
+}
+.logo-pic {
+    position: absolute;
+    max-height: 90%; 
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%); /* Center the logo vertically */
+}
+
+.nav-item {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.btn-primary {
+    background-color: #2780c2;
+    border-color: #2780c2;
+    font-family: Poppins;
+    font-weight: 500;
+    height: 36px;
+}
+
+.btn-primary:hover {
+    background-color: #1366d6;
+}
+
+.btn-primary:active {
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.btn-primary:active:after {
+    opacity: 1;
+}
+
+.btn-warning {
+    cursor: pointer;
+    margin-left: 8px;
+    background-color: #FF9843;
+    border-color: #FF9843;
+    border: 1px;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.btn-warning:hover {
+    background-color: #f3a362;
+    border-color: #f3a362;
+    color: white;
+}
+
+.btn-warning:active {
+    background-color: #cb610a;
+    border-color: #cb610a;
+    color: aliceblue;
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.FAQ .content {
+    background-color:#3468C0;
+    padding: 3rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    
+    
+}
+.FAQ .card-body {
+    background-color:#fcfcfc;
+}
+.FAQ .card-header {
+    background-color:#f7923f;
+}
+
+
+

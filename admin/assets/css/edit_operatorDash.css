@@ -1,0 +1,56 @@
+
+.custom-header {
+    background-color: #EF7215;
+    color: #ffffff; /* White text color */
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.editable-fields input[readonly] {
+    background-color: #bddaf8; /* Optional: change background color when readonly */
+}
+
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+.profile-card img {
+    border-radius: 50%;
+    border: 1px solid #d3d3d3;
+}
+.profile-card .btn {
+    margin-top: 10px;
+}
+.profile-info {
+    text-align: left;
+    margin-top: 20px;
+}
+.profile-info label {
+    font-weight: bold;
+}
+.editable-fields input[readonly],
+.editable-fields textarea[readonly] {
+    background-color: #e9ecef;
+}
+
+.btn-space {
+ margin-left: 10px; /* Adjust the value as needed */
+}
+
+.container {
+display: flex;
+justify-content: center;
+}
+.row {
+width: 100%;
+max-width: 1200px; /* Adjust as needed */
+}

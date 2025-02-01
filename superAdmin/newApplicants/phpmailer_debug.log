@@ -1,0 +1,857 @@
+2024-11-25 10:00:58 [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-2129dba357bsm53245305ad.88 - gsmtp
+
+2024-11-25 10:00:58 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2024-11-25 10:00:59 [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:6:1467:0:ffd:a3d4:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2024-11-25 10:00:59 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2024-11-25 10:00:59 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2024-11-25 10:00:59 [1] CLIENT -> SERVER: [credentials hidden]
+2024-11-25 10:00:59 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2024-11-25 10:00:59 [1] CLIENT -> SERVER: [credentials hidden]
+2024-11-25 10:00:59 [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2024-11-25 10:00:59 [1] CLIENT -> SERVER: MAIL FROM:<websystem2024@gmail.com>
+
+2024-11-25 10:00:59 [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-2129dba357bsm53245305ad.88 - gsmtp
+
+2024-11-25 10:00:59 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel24@gmail.com>
+
+2024-11-25 10:01:00 [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-2129dba357bsm53245305ad.88 - gsmtp
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: DATA
+
+2024-11-25 10:01:00 [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-2129dba357bsm53245305ad.88 - gsmtp
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: Date: Mon, 25 Nov 2024 10:00:58 +0800
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: To: Mark Santos <oblepiasneozel24@gmail.com>
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <websystem2024@gmail.com>
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: Message-ID: <ClOPNws7Gh5LiNK6zq7D5LsdqhRAcS3AJl5BwfeM@mtfrblucban.com>
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: 
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: Dear Mark Santos,
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: 
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: 
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: Reason for denial: Invalid documents
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: 
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: 
+
+2024-11-25 10:01:00 [1] CLIENT -> SERVER: .
+
+2024-11-25 10:01:01 [2] SERVER -> CLIENT: 250 2.0.0 OK  1732500060 d9443c01a7336-2129dba357bsm53245305ad.88 - gsmtp
+
+2024-11-25 10:01:01 [1] CLIENT -> SERVER: QUIT
+
+2024-11-25 10:01:01 [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-2129dba357bsm53245305ad.88 - gsmtp
+
+2024-11-26 15:34:48 [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2eb0d048b73sm8051211a91.35 - gsmtp
+
+2024-11-26 15:34:48 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2024-11-26 15:34:48 [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:6:1467:0:ffd:a3d4:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2024-11-26 15:34:48 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2024-11-26 15:34:48 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2024-11-26 15:34:48 [1] CLIENT -> SERVER: [credentials hidden]
+2024-11-26 15:34:49 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2024-11-26 15:34:49 [1] CLIENT -> SERVER: [credentials hidden]
+2024-11-26 15:34:49 [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2024-11-26 15:34:49 [1] CLIENT -> SERVER: MAIL FROM:<websystem2024@gmail.com>
+
+2024-11-26 15:34:49 [2] SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2eb0d048b73sm8051211a91.35 - gsmtp
+
+2024-11-26 15:34:49 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel@gmail.com>
+
+2024-11-26 15:34:49 [2] SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2eb0d048b73sm8051211a91.35 - gsmtp
+
+2024-11-26 15:34:49 [1] CLIENT -> SERVER: DATA
+
+2024-11-26 15:34:50 [2] SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2eb0d048b73sm8051211a91.35 - gsmtp
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: Date: Tue, 26 Nov 2024 15:34:48 +0800
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: To: Vic Paz <oblepiasneozel@gmail.com>
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <websystem2024@gmail.com>
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: Message-ID: <8ZZXc8ihAIIvOwmv8Z1h6IRZJXXhtBRHizEllEhKmY@mtfrblucban.com>
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: 
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: Dear Vic Paz,
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: 
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: 
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: Reason for denial: Invalid documents
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: 
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: 
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: .
+
+2024-11-26 15:34:50 [2] SERVER -> CLIENT: 250 2.0.0 OK  1732606490 98e67ed59e1d1-2eb0d048b73sm8051211a91.35 - gsmtp
+
+2024-11-26 15:34:50 [1] CLIENT -> SERVER: QUIT
+
+2024-11-26 15:34:50 [2] SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2eb0d048b73sm8051211a91.35 - gsmtp
+
+2024-11-30 09:13:11 [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7254176f627sm4255955b3a.64 - gsmtp
+
+2024-11-30 09:13:11 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2024-11-30 09:13:11 [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:6:1467:0:ffd:a3d4:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2024-11-30 09:13:11 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2024-11-30 09:13:11 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2024-11-30 09:13:11 [1] CLIENT -> SERVER: [credentials hidden]
+2024-11-30 09:13:12 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2024-11-30 09:13:12 [1] CLIENT -> SERVER: [credentials hidden]
+2024-11-30 09:13:12 [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2024-11-30 09:13:12 [1] CLIENT -> SERVER: MAIL FROM:<websystem2024@gmail.com>
+
+2024-11-30 09:13:12 [2] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-7254176f627sm4255955b3a.64 - gsmtp
+
+2024-11-30 09:13:12 [1] CLIENT -> SERVER: RCPT TO:<noblepias24@gmail.com>
+
+2024-11-30 09:13:12 [2] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-7254176f627sm4255955b3a.64 - gsmtp
+
+2024-11-30 09:13:12 [1] CLIENT -> SERVER: DATA
+
+2024-11-30 09:13:13 [2] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-7254176f627sm4255955b3a.64 - gsmtp
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: Date: Sat, 30 Nov 2024 09:13:11 +0800
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: To: Juan Cruz <noblepias24@gmail.com>
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <websystem2024@gmail.com>
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: Message-ID: <E8ruXD3VgMzKxMhZq9dZ08mRVqLyFmgg2u55hFmAZY@mtfrblucban.com>
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: 
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: Dear Juan Cruz,
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: 
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: 
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: Reason for denial: Invalid documents
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: 
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: 
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: .
+
+2024-11-30 09:13:13 [2] SERVER -> CLIENT: 250 2.0.0 OK  1732929193 d2e1a72fcca58-7254176f627sm4255955b3a.64 - gsmtp
+
+2024-11-30 09:13:13 [1] CLIENT -> SERVER: QUIT
+
+2024-11-30 09:13:13 [2] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7254176f627sm4255955b3a.64 - gsmtp
+
+2024-12-11 01:54:46 [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-725f13cd969sm3577269b3a.6 - gsmtp
+
+2024-12-11 01:54:46 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2024-12-11 01:54:46 [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:6:1467:0:ffd:a3d4:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2024-12-11 01:54:46 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2024-12-11 01:54:46 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2024-12-11 01:54:46 [1] CLIENT -> SERVER: [credentials hidden]
+2024-12-11 01:54:46 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2024-12-11 01:54:46 [1] CLIENT -> SERVER: [credentials hidden]
+2024-12-11 01:54:46 [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2024-12-11 01:54:46 [1] CLIENT -> SERVER: MAIL FROM:<websystem2024@gmail.com>
+
+2024-12-11 01:54:47 [2] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-725f13cd969sm3577269b3a.6 - gsmtp
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel24@gmail.com>
+
+2024-12-11 01:54:47 [2] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-725f13cd969sm3577269b3a.6 - gsmtp
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: DATA
+
+2024-12-11 01:54:47 [2] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-725f13cd969sm3577269b3a.6 - gsmtp
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: Date: Wed, 11 Dec 2024 01:54:44 +0800
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: To: Calvin San Luis <oblepiasneozel24@gmail.com>
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <websystem2024@gmail.com>
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: Message-ID: <N5f6uhW2UbhTWqI7CpllZLA3UfJ2znHsiETo2VsaUU@mtfrblucban.com>
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: 
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: Dear Calvin San Luis,
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: 
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: 
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: Reason for denial: Failure to comply in the requirements
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: 
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: 
+
+2024-12-11 01:54:47 [1] CLIENT -> SERVER: .
+
+2024-12-11 01:54:48 [2] SERVER -> CLIENT: 250 2.0.0 OK  1733853288 d2e1a72fcca58-725f13cd969sm3577269b3a.6 - gsmtp
+
+2024-12-11 01:54:48 [1] CLIENT -> SERVER: QUIT
+
+2024-12-11 01:54:48 [2] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-725f13cd969sm3577269b3a.6 - gsmtp
+
+2024-12-28 19:10:19 [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f4477987f4sm19153753a91.2 - gsmtp
+
+2024-12-28 19:10:19 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2024-12-28 19:10:19 [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:6:1467:0:ffd:a3d4:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2024-12-28 19:10:19 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2024-12-28 19:10:19 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2024-12-28 19:10:19 [1] CLIENT -> SERVER: [credentials hidden]
+2024-12-28 19:10:20 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2024-12-28 19:10:20 [1] CLIENT -> SERVER: [credentials hidden]
+2024-12-28 19:10:20 [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2024-12-28 19:10:20 [1] CLIENT -> SERVER: MAIL FROM:<websystem2024@gmail.com>
+
+2024-12-28 19:10:20 [2] SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f4477987f4sm19153753a91.2 - gsmtp
+
+2024-12-28 19:10:20 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel24@gmail.com>
+
+2024-12-28 19:10:20 [2] SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f4477987f4sm19153753a91.2 - gsmtp
+
+2024-12-28 19:10:20 [1] CLIENT -> SERVER: DATA
+
+2024-12-28 19:10:21 [2] SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f4477987f4sm19153753a91.2 - gsmtp
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: Date: Sat, 28 Dec 2024 19:10:19 +0800
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: To: Crisanto Laguerta <oblepiasneozel24@gmail.com>
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <websystem2024@gmail.com>
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: Message-ID: <AKWbMJzoveSChE9gYQD2GMeaLGB6Lt3iXswg7Pvwg@mtfrblucban.com>
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: 
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: Dear Crisanto Laguerta,
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: 
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: 
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: Reason for denial: Already a Franchise Holder
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: 
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: 
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: .
+
+2024-12-28 19:10:21 [2] SERVER -> CLIENT: 250 2.0.0 OK  1735384221 98e67ed59e1d1-2f4477987f4sm19153753a91.2 - gsmtp
+
+2024-12-28 19:10:21 [1] CLIENT -> SERVER: QUIT
+
+2024-12-28 19:10:22 [2] SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f4477987f4sm19153753a91.2 - gsmtp
+
+2025-01-07 11:40:21 [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-219dc9d448asm301625335ad.146 - gsmtp
+
+2025-01-07 11:40:21 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2025-01-07 11:40:21 [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:6:1467:0:ffd:a3d4:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-01-07 11:40:21 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-01-07 11:40:22 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-01-07 11:40:22 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-07 11:40:22 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-01-07 11:40:22 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-07 11:40:22 [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-01-07 11:40:22 [1] CLIENT -> SERVER: MAIL FROM:<websystem2024@gmail.com>
+
+2025-01-07 11:40:22 [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-219dc9d448asm301625335ad.146 - gsmtp
+
+2025-01-07 11:40:22 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel24@gmail.com>
+
+2025-01-07 11:40:22 [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-219dc9d448asm301625335ad.146 - gsmtp
+
+2025-01-07 11:40:22 [1] CLIENT -> SERVER: DATA
+
+2025-01-07 11:40:23 [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-219dc9d448asm301625335ad.146 - gsmtp
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: Date: Tue, 7 Jan 2025 11:40:21 +0800
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: To: Mario Robles <oblepiasneozel24@gmail.com>
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <websystem2024@gmail.com>
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: Message-ID: <g2KgYComNxywG9Fc9kvce5yFpBURitM2dlPX6INXI@mtfrblucban.com>
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: 
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: Dear Mario Robles,
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: 
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: 
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: Reason for denial: Current franchise holder
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: 
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: 
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: .
+
+2025-01-07 11:40:23 [2] SERVER -> CLIENT: 250 2.0.0 OK  1736221223 d9443c01a7336-219dc9d448asm301625335ad.146 - gsmtp
+
+2025-01-07 11:40:23 [1] CLIENT -> SERVER: QUIT
+
+2025-01-07 11:40:24 [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-219dc9d448asm301625335ad.146 - gsmtp
+
+2025-01-09 10:27:43 [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-21a9174a37dsm1372755ad.79 - gsmtp
+
+2025-01-09 10:27:43 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2025-01-09 10:27:43 [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:6:1467:0:ffd:a3d4:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-01-09 10:27:43 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-01-09 10:27:43 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-01-09 10:27:43 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 10:27:43 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-01-09 10:27:43 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 10:27:44 [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: MAIL FROM:<websystem2024@gmail.com>
+
+2025-01-09 10:27:44 [2] SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-21a9174a37dsm1372755ad.79 - gsmtp
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel24@gmail.com>
+
+2025-01-09 10:27:44 [2] SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-21a9174a37dsm1372755ad.79 - gsmtp
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: DATA
+
+2025-01-09 10:27:44 [2] SERVER -> CLIENT: 354 Go ahead d9443c01a7336-21a9174a37dsm1372755ad.79 - gsmtp
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: Date: Thu, 9 Jan 2025 10:27:42 +0800
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: To: Mario Robles <oblepiasneozel24@gmail.com>
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <websystem2024@gmail.com>
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: Message-ID: <2YZEEjyMvbAoL3zJVu3a0IFnmEw9cKmagfGC1THLhA@mtfrblucban.com>
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: 
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: Dear Mario Robles,
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: 
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: 
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: Reason for denial: Current tricycle operator
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: 
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: 
+
+2025-01-09 10:27:44 [1] CLIENT -> SERVER: .
+
+2025-01-09 10:27:45 [2] SERVER -> CLIENT: 250 2.0.0 OK  1736389665 d9443c01a7336-21a9174a37dsm1372755ad.79 - gsmtp
+
+2025-01-09 10:27:45 [1] CLIENT -> SERVER: QUIT
+
+2025-01-09 10:27:45 [2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-21a9174a37dsm1372755ad.79 - gsmtp
+
+2025-01-09 11:15:31 [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-72aad8fd58asm37037310b3a.145 - gsmtp
+
+2025-01-09 11:15:31 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2025-01-09 11:15:31 [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:6:1467:0:ffd:a3d4:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-01-09 11:15:31 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-01-09 11:15:32 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-01-09 11:15:32 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 11:15:32 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-01-09 11:15:32 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 11:15:32 [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-01-09 11:15:32 [1] CLIENT -> SERVER: MAIL FROM:<websystem2024@gmail.com>
+
+2025-01-09 11:15:32 [2] SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-72aad8fd58asm37037310b3a.145 - gsmtp
+
+2025-01-09 11:15:32 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel24@gmail.com>
+
+2025-01-09 11:15:33 [2] SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-72aad8fd58asm37037310b3a.145 - gsmtp
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: DATA
+
+2025-01-09 11:15:33 [2] SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-72aad8fd58asm37037310b3a.145 - gsmtp
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: Date: Thu, 9 Jan 2025 11:15:30 +0800
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: To: Mario Robles <oblepiasneozel24@gmail.com>
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <websystem2024@gmail.com>
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: Message-ID: <fljylDJ7AeJkPjtorXupwL9t9sq0sGg5maHq6l8UQ@mtfrblucban.com>
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: 
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: Dear Mario Robles,
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: 
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: 
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: Reason for denial: Current tricycle operator
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: 
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: 
+
+2025-01-09 11:15:33 [1] CLIENT -> SERVER: .
+
+2025-01-09 11:15:34 [2] SERVER -> CLIENT: 250 2.0.0 OK  1736392533 d2e1a72fcca58-72aad8fd58asm37037310b3a.145 - gsmtp
+
+2025-01-09 11:15:34 [1] CLIENT -> SERVER: QUIT
+
+2025-01-09 11:15:34 [2] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-72aad8fd58asm37037310b3a.145 - gsmtp
+
+2025-01-09 13:06:15 [2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2f54a2ad36asm2580314a91.30 - gsmtp
+
+2025-01-09 13:06:15 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2025-01-09 13:06:15 [2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2a02:4780:6:1467:0:ffd:a3d4:1]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+2025-01-09 13:06:15 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-01-09 13:06:16 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-01-09 13:06:16 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 13:06:16 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-01-09 13:06:16 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 13:06:16 [2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+2025-01-09 13:06:16 [1] CLIENT -> SERVER: MAIL FROM:<websystem2024@gmail.com>
+
+2025-01-09 13:06:16 [2] SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2f54a2ad36asm2580314a91.30 - gsmtp
+
+2025-01-09 13:06:16 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel24@gmail.com>
+
+2025-01-09 13:06:16 [2] SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2f54a2ad36asm2580314a91.30 - gsmtp
+
+2025-01-09 13:06:16 [1] CLIENT -> SERVER: DATA
+
+2025-01-09 13:06:17 [2] SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2f54a2ad36asm2580314a91.30 - gsmtp
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: Date: Thu, 9 Jan 2025 13:06:15 +0800
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: To: Mario Robles <oblepiasneozel24@gmail.com>
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <websystem2024@gmail.com>
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: Message-ID: <ZTMEDA9FmVc81yvSJXIMq0dT17qBKtTHljpJt8VN8SI@mtfrblucban.com>
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: Dear Mario Robles,
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: Reason for denial: Current tricycle operator
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: .
+
+2025-01-09 13:06:17 [2] SERVER -> CLIENT: 250 2.0.0 OK  1736399177 98e67ed59e1d1-2f54a2ad36asm2580314a91.30 - gsmtp
+
+2025-01-09 13:06:17 [1] CLIENT -> SERVER: QUIT
+
+2025-01-09 13:06:18 [2] SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2f54a2ad36asm2580314a91.30 - gsmtp
+
+2025-01-09 13:18:29 [2] SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+2025-01-09 13:18:29 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2025-01-09 13:18:30 [2] SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+2025-01-09 13:18:30 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-01-09 13:18:30 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-01-09 13:18:30 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 13:18:30 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-01-09 13:18:30 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 13:18:30 [2] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+2025-01-09 13:18:30 [1] CLIENT -> SERVER: MAIL FROM:<mtfrb_lucban@mtfrblucban.com>
+
+2025-01-09 13:18:30 [2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+2025-01-09 13:18:30 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel24@gmail.com>
+
+2025-01-09 13:18:31 [2] SERVER -> CLIENT: 250 2.1.5 Ok
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: RCPT TO:<mtfrb_lucban@mtfrblucban.com>
+
+2025-01-09 13:18:31 [2] SERVER -> CLIENT: 250 2.1.5 Ok
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: DATA
+
+2025-01-09 13:18:31 [2] SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: Date: Thu, 9 Jan 2025 13:18:29 +0800
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: To: Mario Robles <oblepiasneozel24@gmail.com>
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <mtfrb_lucban@mtfrblucban.com>
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: Message-ID: <pKFraJg1vhS3uRzgnTbgwcYlweHKrEj8JIXAFHXGI8@mtfrblucban.com>
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: Dear Mario Robles,
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: Reason for denial: Current tricycle operator
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: 
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: .
+
+2025-01-09 13:18:31 [2] SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4YTCjy6bXsz4dDjC
+
+2025-01-09 13:18:31 [1] CLIENT -> SERVER: QUIT
+
+2025-01-09 13:18:32 [2] SERVER -> CLIENT: 221 2.0.0 Bye
+
+2025-01-09 14:40:59 [2] SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+2025-01-09 14:40:59 [1] CLIENT -> SERVER: EHLO mtfrblucban.com
+
+2025-01-09 14:41:00 [2] SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+2025-01-09 14:41:00 [1] CLIENT -> SERVER: AUTH LOGIN
+
+2025-01-09 14:41:00 [2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+2025-01-09 14:41:00 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 14:41:00 [2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+2025-01-09 14:41:00 [1] CLIENT -> SERVER: [credentials hidden]
+2025-01-09 14:41:00 [2] SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+2025-01-09 14:41:00 [1] CLIENT -> SERVER: MAIL FROM:<mtfrb_lucban@mtfrblucban.com>
+
+2025-01-09 14:41:00 [2] SERVER -> CLIENT: 250 2.1.0 Ok
+
+2025-01-09 14:41:00 [1] CLIENT -> SERVER: RCPT TO:<oblepiasneozel24@gmail.com>
+
+2025-01-09 14:41:01 [2] SERVER -> CLIENT: 250 2.1.5 Ok
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: RCPT TO:<mtfrb_lucban@mtfrblucban.com>
+
+2025-01-09 14:41:01 [2] SERVER -> CLIENT: 250 2.1.5 Ok
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: DATA
+
+2025-01-09 14:41:01 [2] SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: Date: Thu, 9 Jan 2025 14:40:59 +0800
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: To: Mario Robles <oblepiasneozel24@gmail.com>
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: From: MTFRB Lucban Office <mtfrb_lucban@mtfrblucban.com>
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: Subject: Tricycle Franchise Application Notification
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: Message-ID: <Tz7W7vXwaHfWsUnVbagXuVQuLdxYIDfeoek11BCBdk@mtfrblucban.com>
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: MIME-Version: 1.0
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: 
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: Dear Mario Robles,
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: 
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: We regret to inform you that your tricycle franchise application has been denied.
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: 
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: Reason for denial of franchise application: Current tricycle operator
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: 
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: Thank you for your understanding.
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: 
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: .
+
+2025-01-09 14:41:01 [2] SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4YTFY875YTz5ZBgM
+
+2025-01-09 14:41:01 [1] CLIENT -> SERVER: QUIT
+
+2025-01-09 14:41:01 [2] SERVER -> CLIENT: 221 2.0.0 Bye
+

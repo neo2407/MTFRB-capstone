@@ -1,0 +1,101 @@
+body {
+    background: #3468C0 url('../../assets/img/bg-lucban.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* Prevent the background from resizing */
+    margin-top:30px;
+}
+
+.logo-pic {
+    position: absolute;
+    max-height: 66px;
+    left: 40px;
+    top: 5%;
+}
+
+.btn-primary {
+    background-color: #3ca0ed;
+    border-color: #2780c2;
+    font-weight: 500;
+    height: 36px;
+}
+
+.btn-primary:hover {
+    background-color: #1366d6;
+}
+
+.btn-primary:active {
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.btn-primary:active:after {
+    opacity: 1;
+}
+
+.btn-warning {
+    cursor: pointer;
+    margin-left: 8px;
+    background-color: #FF9843;
+    border-color: #FF9843;
+    border: 1px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.btn-warning:hover {
+    background-color: #f3a362;
+    border-color: #f3a362;
+    color: white;
+}
+
+.btn-warning:active {
+    background-color: #cb610a;
+    border-color: #cb610a;
+    color: aliceblue;
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+.table th,
+.table td {
+    border: none;
+}
+.badge-Verified {
+    background-color: #28a745;
+}
+.badge-Invalid {
+    background-color: #dc3545;
+
+}
+    /* Responsive Font and Padding */
+ @media (max-width: 768px) {
+    .table thead th, .table tbody td {
+        font-size: 12px; /* Smaller text for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .btn-block {
+        max-width: 120px; /* Smaller buttons on smaller screens */
+    }
+
+    .text-right {
+        text-align: center; /* Center the buttons on smaller screens */
+    }
+
+    .btn {
+        margin-top: 10px; /* Add spacing between buttons on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .table thead th, .table tbody td {
+        font-size: 10px; /* Even smaller text for very small screens */
+        padding: 5px; /* Adjust padding further */
+    }
+
+    .btn-block {
+        max-width: 100px; /* Smaller buttons on very small screens */
+    }
+}

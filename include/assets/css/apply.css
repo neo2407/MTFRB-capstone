@@ -1,0 +1,222 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url();     
+        }
+        .form-container {
+            position: relative;
+            max-width: 900px;
+            width: 100%;
+            border-radius: 6px;
+            padding: 30px;
+            margin: 0 15px;
+            background-color: #fff;
+            box-shadow: 0 5px 10px black;
+        }
+        .form-container header {
+            position: relative;
+            font-size: 30px;
+            font-weight: 600;
+            color: #00072c;
+            text-align: center;
+        }
+        .form-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .form-container header::before{
+            content: "";
+            left: 0;
+            position: absolute;
+            bottom: -2px;
+            height: 3px;
+            width: 100%;
+            background-color: #1b53fb;
+        }
+        .form-container form {
+            position: relative;
+            margin-top: 16px;
+            min-height: 490px;
+            background-color: #ebedf4;
+            overflow: hidden;
+        }
+        .form-container form .form {
+            position: absolute;
+            transition: 0.3s ease;
+            height: 491px;
+            background: #ebedf4;
+            padding: 7px 21px;
+        }
+        .form-container form .form.second {
+            /* opacity: 0;
+            pointer-events: none; */
+            transform: translateX(100%);
+        }           
+        form.setActive .form.second {
+            opacity: 1;
+            pointer-events: auto;
+            transform: translateX(0);
+        }
+        form.setActive .form.first {
+            opacity: 1;
+            pointer-events: none;
+            transform: translateX(-100%);
+        }
+        /* .form-container form .details {
+            margin-top: 30px; 
+        } */
+        .form-container form .title {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            margin: 6px 0;
+            color: #333;
+        }
+        .form-container form .fields {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        form .fields .input-field {
+            display: flex;
+            width: calc(100% / 3 - 15px);
+            flex-direction: column;
+            margin: 4px 0;
+        }
+        .input-field label {
+            font-size: 12px;
+            font-weight: 500;
+            color: #00072c;
+        }
+        .input-field input {
+            outline: none;
+            border: 1px solid #aaa;
+            padding: 0 15px;
+            font-size: 14px;
+            font-weight: 400;
+            border-radius: 5px;
+            color: #333;
+            height: 42px;
+            margin: 8px 0;
+        }
+        .input-field input:focus,
+        .input-field input:valid {
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+        }
+
+        .input-field input[type="date"] {
+            color: #707070;
+        }
+        .input-field input[type="date"]:valid {
+            color: #333;
+        }
+
+
+        .radio-sex input[type="radio"], 
+        .radio-yrlevel input[type="radio"], 
+        .radio-studStatus input[type="radio"] {
+            display: none;
+        }
+        .radio-sex label, 
+        .radio-yrlevel label, 
+        .radio-studStatus label {
+            display: inline-block;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .radio-sex label::before, 
+        .radio-yrlevel label::before, 
+        .radio-studStatus label::before {
+            content: "";
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border: 2px solid #000;
+            border-radius: 50%;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        .radio-sex input[type="radio"]:checked + label::before {
+            background-color: #000;
+        }
+        .radio-yrlevel input[type="radio"]:checked + label::before {
+            background-color: #000;
+        }
+        .radio-studStatus input[type="radio"]:checked + label::before {
+            background-color: #000;
+        }
+
+        .form-container form button, .backBtn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 45px;
+            max-width: 200px;
+            width: 190px;
+            border: none;
+            outline: none;
+            color: #fff;
+            border-radius: 5px;
+            margin: 25px 16px;
+            background-color: #1c4ee2;
+            transition: all 0.3s linear;
+            cursor: pointer;
+        }
+        .form-container form button,
+        .form-container form .backBtn { 
+            font-size: 14px;
+            font-family: 400;
+        }
+        form button:hover{
+            background-color: #2954d1;
+        }
+        form .backBtn i,
+        form button i {
+            margin: 0 6px;
+        }
+        form .backBtn i {
+            transform: rotate(180deg);
+        }
+        form .buttons {
+            display: flex;
+            position: absolute;
+            align-items: center;
+            margin-left: 174px;
+        }
+        form .buttons button, .backtBtn {
+            margin-right: 14px ;
+        }
+
+        @media (max-width: 750px) {
+            .form-container form {
+                overflow-y: scroll;
+            }
+            .form-container::-webkit-scrollbar {
+                display: none;
+            }
+            form .fields .input-field {
+                width: calc(100% / 2 - 15px);
+            }
+        }
+        
+        @media (max-width: 550px) {
+            form .fields .input-field {
+                width: 100%;
+            }
+        }
+
